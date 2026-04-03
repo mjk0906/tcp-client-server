@@ -1,4 +1,4 @@
-# tcp-client-server
+# tcp-client-server using cpp sockets
 this is part of my app,Heuristics and Networks guild IITM 
 
 This project demonstrates a simple TCP client-server communication using sockets in C++.
