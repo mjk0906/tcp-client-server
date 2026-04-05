@@ -52,7 +52,7 @@ int main() {
 
     //receive the message
     char buffer[1024] = {0}; //stores the message
-    int bytes_read=(client_socket, buffer, 1024); //this function reads the message and stores in buffer variable
+    int bytes_read= read(client_socket, buffer, 1024); //this function reads the message and stores in buffer variable
     if(bytes_read<0){
         perror("Read failed");
     }else{
